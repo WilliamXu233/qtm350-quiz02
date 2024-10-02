@@ -1,0 +1,52 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Life Expectancy and Population\"\n",
+        "---\n",
+        "\n",
+        "\n",
+        "# Life Expectancy and Population\n",
+        "\n",
+        "This page explores the relationship between life expectancy and population using data from the Gapminder dataset. The scatter plot below illustrates how these two variables are related across countries.\n"
+      ],
+      "id": "96a76592"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import pandas as pd\n",
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "\n",
+        "data = pd.read_csv('/Users/joyasushibun/Documents/QTM 350/gapminder.csv')\n",
+        "\n",
+        "\n",
+        "plt.figure(figsize=(10, 6))\n",
+        "plt.scatter(data['population'], data['life_expectancy'], alpha=0.7)\n",
+        "plt.title('Life Expectancy vs Population')\n",
+        "plt.xlabel('Population')\n",
+        "plt.ylabel('Life Expectancy')\n",
+        "plt.grid(True)\n",
+        "plt.show()"
+      ],
+      "id": "ee42efd4",
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/Users/joyasushibun/Library/Python/3.11/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
