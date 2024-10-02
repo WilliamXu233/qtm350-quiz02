@@ -1,0 +1,21 @@
+---
+title: "William's website"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+## Dataset Information
+The Gapminder dataset is widely used to analyze trends in global development. The dataset provides insights into the changes in life expectancy, population, and GDP per capita.
+
+## The links
+- [Home](index.qmd)
+- [About](about.qmd)
+- [Life Expectancy and GDP per Capita](life-gdp.qmd)
+
+## links
+
+- [Life Expectancy and GDP per Capita](life-gdp.qmd)
+- [Life Expectancy and Population](life-population.qmd)
+- [Country Analysis](country.qmd)
