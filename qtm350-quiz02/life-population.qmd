@@ -12,11 +12,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-data = pd.read_csv('/Users/joyasushibun/Documents/QTM 350/gapminder.csv')
+data = pd.read_csv('/Users/joyasushibun/qtm350-quiz02/gapminder.csv')
 
 
 plt.figure(figsize=(10, 6))
-plt.scatter(data['population'], data['life_expectancy'], alpha=0.7)
+plt.scatter(data['population_millions'], data['life_expectancy'], alpha=0.7)
 plt.title('Life Expectancy vs Population')
 plt.xlabel('Population')
 plt.ylabel('Life Expectancy')

@@ -6,13 +6,14 @@ title: "Country Analysis: Life Expectancy, GDP per Capita, and Population"
 
 This page analyzes changes in life expectancy, GDP per capita, and population for a specific country over time. In this example, we will focus on the "United States" using data from the Gapminder dataset.
 
+The code you provided is performing the following tasks in Python:
 ```{python}
 
 import pandas as pd
 import matplotlib.pyplot as plt
 
 
-data = pd.read_csv('/Users/joyasushibun/Documents/QTM 350/gapminder.csv')
+data = pd.read_csv('/Users/joyasushibun/qtm350-quiz02/gapminder.csv')
 
 
 country_name = "United States"
@@ -20,7 +21,6 @@ country_data = data[data['country'] == country_name]
 
 
 plt.figure(figsize=(10, 6))
-
 
 plt.plot(country_data['year'], country_data['life_expectancy'], label="Life Expectancy", marker='o')
 

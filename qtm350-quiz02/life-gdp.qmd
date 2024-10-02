@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
-data = pd.read_csv('/Users/joyasushibun/Documents/QTM 350/gapminder.csv')
+data = pd.read_csv('/Users/joyasushibun/qtm350-quiz02/gapminder.csv')
 
 
 plt.figure(figsize=(10,6))

@@ -13,7 +13,7 @@
         "\n",
         "This page explores the relationship between life expectancy and population using data from the Gapminder dataset. The scatter plot below illustrates how these two variables are related across countries.\n"
       ],
-      "id": "96a76592"
+      "id": "af31dd7b"
     },
     {
       "cell_type": "code",
@@ -23,18 +23,18 @@
         "import matplotlib.pyplot as plt\n",
         "\n",
         "\n",
-        "data = pd.read_csv('/Users/joyasushibun/Documents/QTM 350/gapminder.csv')\n",
+        "data = pd.read_csv('gapminder.csv')\n",
         "\n",
         "\n",
         "plt.figure(figsize=(10, 6))\n",
-        "plt.scatter(data['population'], data['life_expectancy'], alpha=0.7)\n",
+        "plt.scatter(data['population_millions'], data['life_expectancy'], alpha=0.7)\n",
         "plt.title('Life Expectancy vs Population')\n",
         "plt.xlabel('Population')\n",
         "plt.ylabel('Life Expectancy')\n",
         "plt.grid(True)\n",
         "plt.show()"
       ],
-      "id": "ee42efd4",
+      "id": "9278ca1a",
       "execution_count": null,
       "outputs": []
     }

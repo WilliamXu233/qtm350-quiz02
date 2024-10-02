@@ -16,6 +16,12 @@ website:
         text: Home
       - href: about.qmd
         text: About
+      - href: life-gdp.qmd
+        text: Life vs. GDP
+      - href: life-population.qmd
+        text: life vs. Population
+      - href: country.qmd
+        text: Country Analysis
 
 format:
   html:
